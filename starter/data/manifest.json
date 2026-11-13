@@ -1,0 +1,463 @@
+{
+  "corpus_title": "Python basics: introduction, control flow, data structures, errors",
+  "source_format": "HTML",
+  "counting_rule": {
+    "method": "non-overlapping units of normalized main-article text",
+    "minimum_characters_per_unit": 1500,
+    "target_characters_per_unit": 2400,
+    "short_remainder": "merged into preceding unit",
+    "offsets": "zero-based Unicode character offsets, end exclusive",
+    "excluded": "navigation, footer, scripts, styles, heading permalink markers",
+    "note": "Unit numbers are traceable source positions, not physical PDF pages or retrieval chunks."
+  },
+  "total_sources": 4,
+  "total_valid_source_units": 42,
+  "total_normalized_characters": 97593,
+  "snapshot_versions": [
+    "3.14.10"
+  ],
+  "license_snapshot": {
+    "path": "starter/data/raw/python-license.html",
+    "url": "https://docs.python.org/3.14/license.html",
+    "accessed_at": "2026-11-13T17:17:31+07:00",
+    "sha256": "ceb7c3e17647b63a9a4a5f8bc12290b468f88f0ae2a3a626e84af4ae311187dc"
+  },
+  "sources": [
+    {
+      "source_id": "python314-introduction",
+      "title": "3. An Informal Introduction to Python",
+      "source_path_or_url": "https://docs.python.org/3.14/tutorial/introduction.html",
+      "local_source_path": "starter/data/raw/python314-introduction.html",
+      "normalized_text_path": "starter/data/processed/python314-introduction.txt",
+      "license_or_permission": "PSF-2.0; code examples additionally available under 0BSD",
+      "license_url": "https://docs.python.org/3.14/license.html",
+      "accessed_at": "2026-11-13T17:17:29+07:00",
+      "snapshot_version": "3.14.10",
+      "raw_sha256": "5a7312c81cde45dfef5954973522c6e1ac9172987b68224fc2d9408e62fa31b1",
+      "normalized_sha256": "5925a8d30c15a85a131b57db93b3454280c7b71f2ad2d2d639535efcf9ea2db1",
+      "physical_page_count": null,
+      "normalized_char_count": 17034,
+      "page_ids": [
+        "python314-introduction:unit-001",
+        "python314-introduction:unit-002",
+        "python314-introduction:unit-003",
+        "python314-introduction:unit-004",
+        "python314-introduction:unit-005",
+        "python314-introduction:unit-006",
+        "python314-introduction:unit-007"
+      ],
+      "units": [
+        {
+          "unit_id": "python314-introduction:unit-001",
+          "page": 1,
+          "char_start": 0,
+          "char_end": 2231,
+          "char_count": 2231
+        },
+        {
+          "unit_id": "python314-introduction:unit-002",
+          "page": 2,
+          "char_start": 2233,
+          "char_end": 4511,
+          "char_count": 2278
+        },
+        {
+          "unit_id": "python314-introduction:unit-003",
+          "page": 3,
+          "char_start": 4513,
+          "char_end": 6845,
+          "char_count": 2332
+        },
+        {
+          "unit_id": "python314-introduction:unit-004",
+          "page": 4,
+          "char_start": 6847,
+          "char_end": 9127,
+          "char_count": 2280
+        },
+        {
+          "unit_id": "python314-introduction:unit-005",
+          "page": 5,
+          "char_start": 9130,
+          "char_end": 11514,
+          "char_count": 2384
+        },
+        {
+          "unit_id": "python314-introduction:unit-006",
+          "page": 6,
+          "char_start": 11516,
+          "char_end": 13869,
+          "char_count": 2353
+        },
+        {
+          "unit_id": "python314-introduction:unit-007",
+          "page": 7,
+          "char_start": 13871,
+          "char_end": 17034,
+          "char_count": 3163
+        }
+      ],
+      "metadata": {
+        "chapter": 3,
+        "chapter_title": "3. An Informal Introduction to Python",
+        "version": "3.14.10",
+        "language": "en"
+      }
+    },
+    {
+      "source_id": "python314-controlflow",
+      "title": "4. More Control Flow Tools",
+      "source_path_or_url": "https://docs.python.org/3.14/tutorial/controlflow.html",
+      "local_source_path": "starter/data/raw/python314-controlflow.html",
+      "normalized_text_path": "starter/data/processed/python314-controlflow.txt",
+      "license_or_permission": "PSF-2.0; code examples additionally available under 0BSD",
+      "license_url": "https://docs.python.org/3.14/license.html",
+      "accessed_at": "2026-11-13T17:17:30+07:00",
+      "snapshot_version": "3.14.10",
+      "raw_sha256": "47c1a6534fbf428a661909d98ad9cf15af09bc4fb89c37f558c18298f1d2c4ed",
+      "normalized_sha256": "291f71a1afc207314267d51bc35941a28129daa5d4107de6585229c72a3f333a",
+      "physical_page_count": null,
+      "normalized_char_count": 35861,
+      "page_ids": [
+        "python314-controlflow:unit-001",
+        "python314-controlflow:unit-002",
+        "python314-controlflow:unit-003",
+        "python314-controlflow:unit-004",
+        "python314-controlflow:unit-005",
+        "python314-controlflow:unit-006",
+        "python314-controlflow:unit-007",
+        "python314-controlflow:unit-008",
+        "python314-controlflow:unit-009",
+        "python314-controlflow:unit-010",
+        "python314-controlflow:unit-011",
+        "python314-controlflow:unit-012",
+        "python314-controlflow:unit-013",
+        "python314-controlflow:unit-014",
+        "python314-controlflow:unit-015"
+      ],
+      "units": [
+        {
+          "unit_id": "python314-controlflow:unit-001",
+          "page": 1,
+          "char_start": 0,
+          "char_end": 2389,
+          "char_count": 2389
+        },
+        {
+          "unit_id": "python314-controlflow:unit-002",
+          "page": 2,
+          "char_start": 2391,
+          "char_end": 4770,
+          "char_count": 2379
+        },
+        {
+          "unit_id": "python314-controlflow:unit-003",
+          "page": 3,
+          "char_start": 4772,
+          "char_end": 7167,
+          "char_count": 2395
+        },
+        {
+          "unit_id": "python314-controlflow:unit-004",
+          "page": 4,
+          "char_start": 7169,
+          "char_end": 9533,
+          "char_count": 2364
+        },
+        {
+          "unit_id": "python314-controlflow:unit-005",
+          "page": 5,
+          "char_start": 9535,
+          "char_end": 11924,
+          "char_count": 2389
+        },
+        {
+          "unit_id": "python314-controlflow:unit-006",
+          "page": 6,
+          "char_start": 11926,
+          "char_end": 14020,
+          "char_count": 2094
+        },
+        {
+          "unit_id": "python314-controlflow:unit-007",
+          "page": 7,
+          "char_start": 14022,
+          "char_end": 16400,
+          "char_count": 2378
+        },
+        {
+          "unit_id": "python314-controlflow:unit-008",
+          "page": 8,
+          "char_start": 16402,
+          "char_end": 18783,
+          "char_count": 2381
+        },
+        {
+          "unit_id": "python314-controlflow:unit-009",
+          "page": 9,
+          "char_start": 18785,
+          "char_end": 21080,
+          "char_count": 2295
+        },
+        {
+          "unit_id": "python314-controlflow:unit-010",
+          "page": 10,
+          "char_start": 21082,
+          "char_end": 23151,
+          "char_count": 2069
+        },
+        {
+          "unit_id": "python314-controlflow:unit-011",
+          "page": 11,
+          "char_start": 23153,
+          "char_end": 25551,
+          "char_count": 2398
+        },
+        {
+          "unit_id": "python314-controlflow:unit-012",
+          "page": 12,
+          "char_start": 25553,
+          "char_end": 27843,
+          "char_count": 2290
+        },
+        {
+          "unit_id": "python314-controlflow:unit-013",
+          "page": 13,
+          "char_start": 27845,
+          "char_end": 30086,
+          "char_count": 2241
+        },
+        {
+          "unit_id": "python314-controlflow:unit-014",
+          "page": 14,
+          "char_start": 30088,
+          "char_end": 32374,
+          "char_count": 2286
+        },
+        {
+          "unit_id": "python314-controlflow:unit-015",
+          "page": 15,
+          "char_start": 32376,
+          "char_end": 35861,
+          "char_count": 3485
+        }
+      ],
+      "metadata": {
+        "chapter": 4,
+        "chapter_title": "4. More Control Flow Tools",
+        "version": "3.14.10",
+        "language": "en"
+      }
+    },
+    {
+      "source_id": "python314-datastructures",
+      "title": "5. Data Structures",
+      "source_path_or_url": "https://docs.python.org/3.14/tutorial/datastructures.html",
+      "local_source_path": "starter/data/raw/python314-datastructures.html",
+      "normalized_text_path": "starter/data/processed/python314-datastructures.txt",
+      "license_or_permission": "PSF-2.0; code examples additionally available under 0BSD",
+      "license_url": "https://docs.python.org/3.14/license.html",
+      "accessed_at": "2026-11-13T17:17:30+07:00",
+      "snapshot_version": "3.14.10",
+      "raw_sha256": "48b449b1a5d0ca82c65147eb8931330bbf9e17ed3a3e85463136c65766f9e897",
+      "normalized_sha256": "4f56db74c9421d6d7a4182f3771efcdb613e9d3e8b8fc51df6bf5c2b7f56b10c",
+      "physical_page_count": null,
+      "normalized_char_count": 22861,
+      "page_ids": [
+        "python314-datastructures:unit-001",
+        "python314-datastructures:unit-002",
+        "python314-datastructures:unit-003",
+        "python314-datastructures:unit-004",
+        "python314-datastructures:unit-005",
+        "python314-datastructures:unit-006",
+        "python314-datastructures:unit-007",
+        "python314-datastructures:unit-008",
+        "python314-datastructures:unit-009",
+        "python314-datastructures:unit-010"
+      ],
+      "units": [
+        {
+          "unit_id": "python314-datastructures:unit-001",
+          "page": 1,
+          "char_start": 0,
+          "char_end": 2003,
+          "char_count": 2003
+        },
+        {
+          "unit_id": "python314-datastructures:unit-002",
+          "page": 2,
+          "char_start": 2005,
+          "char_end": 4244,
+          "char_count": 2239
+        },
+        {
+          "unit_id": "python314-datastructures:unit-003",
+          "page": 3,
+          "char_start": 4246,
+          "char_end": 6378,
+          "char_count": 2132
+        },
+        {
+          "unit_id": "python314-datastructures:unit-004",
+          "page": 4,
+          "char_start": 6380,
+          "char_end": 8767,
+          "char_count": 2387
+        },
+        {
+          "unit_id": "python314-datastructures:unit-005",
+          "page": 5,
+          "char_start": 8769,
+          "char_end": 11071,
+          "char_count": 2302
+        },
+        {
+          "unit_id": "python314-datastructures:unit-006",
+          "page": 6,
+          "char_start": 11073,
+          "char_end": 13214,
+          "char_count": 2141
+        },
+        {
+          "unit_id": "python314-datastructures:unit-007",
+          "page": 7,
+          "char_start": 13216,
+          "char_end": 15562,
+          "char_count": 2346
+        },
+        {
+          "unit_id": "python314-datastructures:unit-008",
+          "page": 8,
+          "char_start": 15564,
+          "char_end": 17816,
+          "char_count": 2252
+        },
+        {
+          "unit_id": "python314-datastructures:unit-009",
+          "page": 9,
+          "char_start": 17818,
+          "char_end": 19945,
+          "char_count": 2127
+        },
+        {
+          "unit_id": "python314-datastructures:unit-010",
+          "page": 10,
+          "char_start": 19947,
+          "char_end": 22861,
+          "char_count": 2914
+        }
+      ],
+      "metadata": {
+        "chapter": 5,
+        "chapter_title": "5. Data Structures",
+        "version": "3.14.10",
+        "language": "en"
+      }
+    },
+    {
+      "source_id": "python314-errors",
+      "title": "8. Errors and Exceptions",
+      "source_path_or_url": "https://docs.python.org/3.14/tutorial/errors.html",
+      "local_source_path": "starter/data/raw/python314-errors.html",
+      "normalized_text_path": "starter/data/processed/python314-errors.txt",
+      "license_or_permission": "PSF-2.0; code examples additionally available under 0BSD",
+      "license_url": "https://docs.python.org/3.14/license.html",
+      "accessed_at": "2026-11-13T17:17:31+07:00",
+      "snapshot_version": "3.14.10",
+      "raw_sha256": "749c37d6717dc955b0b8928a2af8ac1134a59bd6065f2989a722f040a563fa94",
+      "normalized_sha256": "37f7c8f42335a2f0e6220fef30093b2f368d6310b82ab103f829f9a511709174",
+      "physical_page_count": null,
+      "normalized_char_count": 21837,
+      "page_ids": [
+        "python314-errors:unit-001",
+        "python314-errors:unit-002",
+        "python314-errors:unit-003",
+        "python314-errors:unit-004",
+        "python314-errors:unit-005",
+        "python314-errors:unit-006",
+        "python314-errors:unit-007",
+        "python314-errors:unit-008",
+        "python314-errors:unit-009",
+        "python314-errors:unit-010"
+      ],
+      "units": [
+        {
+          "unit_id": "python314-errors:unit-001",
+          "page": 1,
+          "char_start": 0,
+          "char_end": 2339,
+          "char_count": 2339
+        },
+        {
+          "unit_id": "python314-errors:unit-002",
+          "page": 2,
+          "char_start": 2341,
+          "char_end": 4438,
+          "char_count": 2097
+        },
+        {
+          "unit_id": "python314-errors:unit-003",
+          "page": 3,
+          "char_start": 4440,
+          "char_end": 6633,
+          "char_count": 2193
+        },
+        {
+          "unit_id": "python314-errors:unit-004",
+          "page": 4,
+          "char_start": 6635,
+          "char_end": 9016,
+          "char_count": 2381
+        },
+        {
+          "unit_id": "python314-errors:unit-005",
+          "page": 5,
+          "char_start": 9018,
+          "char_end": 11408,
+          "char_count": 2390
+        },
+        {
+          "unit_id": "python314-errors:unit-006",
+          "page": 6,
+          "char_start": 11410,
+          "char_end": 13540,
+          "char_count": 2130
+        },
+        {
+          "unit_id": "python314-errors:unit-007",
+          "page": 7,
+          "char_start": 13542,
+          "char_end": 15907,
+          "char_count": 2365
+        },
+        {
+          "unit_id": "python314-errors:unit-008",
+          "page": 8,
+          "char_start": 15909,
+          "char_end": 17818,
+          "char_count": 1909
+        },
+        {
+          "unit_id": "python314-errors:unit-009",
+          "page": 9,
+          "char_start": 17820,
+          "char_end": 20154,
+          "char_count": 2334
+        },
+        {
+          "unit_id": "python314-errors:unit-010",
+          "page": 10,
+          "char_start": 20156,
+          "char_end": 21837,
+          "char_count": 1681
+        }
+      ],
+      "metadata": {
+        "chapter": 8,
+        "chapter_title": "8. Errors and Exceptions",
+        "version": "3.14.10",
+        "language": "en"
+      }
+    }
+  ]
+}

@@ -1,4 +1,12 @@
-# Core setup and PDF parsing. Choose and install an embedding SDK separately.
+# Original database/PDF setup; the pinned local embedding stack follows below.
 psycopg[binary]==3.3.8
 pypdf>=5,<7
 python-dotenv>=1,<2
+
+# Local embedding/vector-store stack used by this lab; versions from the working environment.
+sentence-transformers==6.3.0
+transformers==5.22.2
+torch==2.15.0
+numpy==2.5.4
+huggingface-hub==2.4.0
+chromadb==1.5.9

@@ -1,3 +1,5 @@
 # Báo cáo cá nhân
 
-Copy `MSSV_HoTen.md` thành `<MSSV>_<HoTen>.md`, điền kết quả thực tế và liên kết đến trace, nhãn audit cùng cấu hình. Không ghi giá trị ví dụ thành kết quả đã chạy.
+Báo cáo của tôi: [2A202603421_NguyenNgocMinhDuc.md](2A202603421_NguyenNgocMinhDuc.md).
+
+[MSSV_HoTen.md](MSSV_HoTen.md) và [REPORT_TEMPLATE.md](../../REPORT_TEMPLATE.md) là hai mẫu ngắn, dùng ngôi “tôi”. Số liệu thực tế và trạng thái rà soát của tôi được ghi trong báo cáo cá nhân.
